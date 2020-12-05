@@ -1,0 +1,4 @@
+First step: - Create a connection using Connection class in java.sql module using [Connection con = DriverManager.getConnection(url, user, pass), where url = "jdbc:mysql://localhost:3306/database_name", user = "root", pass = "" by default.
+Second step: - After getting secured connection, we create sql statements using Statement class in java.sql module and execute those statement using executeupdate(sql_syntax in string format) command (this can be used to insert, delete and update where executeQuery(sql_syntax in string format) is used to select query, and it returns a result set.
+
+*All the above processes throws sql exceptions.
